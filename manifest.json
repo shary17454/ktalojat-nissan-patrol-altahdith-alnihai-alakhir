@@ -25,6 +25,11 @@
       "count": 0,
       "reason": "Candidate source contains real Nissan Patrol 60 parts diagrams, but raw diagram image includes www.CarPartsManual.com mark inside the image.",
       "source_checked": "https://www.carpartsmanual.com/nissan/patrol-1959-1980"
+    },
+    "local_jdmcat_y60_candidate": {
+      "count": 0,
+      "reason": "Local JDMCAT/Nengun-derived Y60 images contain a large non-Nissan watermark behind the diagrams.",
+      "local_source_checked": "outputs/ذاكرة الكتالوجات المفروزة والمعتمدة/استخراج_نظيف_بدون_Partsouq_2026-08-09"
     }
   },
   "status": "blocked_until_clean_epc_source_is_available",

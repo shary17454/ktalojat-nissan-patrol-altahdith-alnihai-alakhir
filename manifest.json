@@ -1,7 +1,7 @@
 {
   "created_at": "2026-08-17 17:05 +03",
   "repository": "ktalojat-nissan-patrol-altahdith-alnihai-alakhir",
-  "acceptance_rule": "PDF files are accepted only when they contain diagrams, part numbers, bilingual Arabic/English labels, and no visible watermark/source logo inside diagrams.",
+  "acceptance_rule": "PDF files are accepted only when they contain diagrams, part numbers, bilingual Arabic/English labels, and no visible marketplace/store/platform watermark, logo, source URL, or commercial source mark. A Nissan-only watermark is acceptable when it belongs to an original Nissan source.",
   "counts": {
     "Pre-Y60": 0,
     "Y60": 0,
@@ -22,5 +22,17 @@
       "local_quarantine": "work/rejected_watermarked/Y61"
     }
   },
-  "status": "blocked_until_clean_epc_source_is_available"
+  "status": "blocked_until_clean_epc_source_is_available",
+  "strict_watermark_policy": {
+    "allowed": [
+      "Nissan-only source mark or watermark from an original Nissan source"
+    ],
+    "rejected": [
+      "Partsouq",
+      "Nengun",
+      "Amayama",
+      "Megazip",
+      "any marketplace/store/platform/source URL or logo"
+    ]
+  }
 }

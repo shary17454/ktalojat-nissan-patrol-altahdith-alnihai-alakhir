@@ -35,7 +35,21 @@
     "status": "blocked_until_clean_epc_source_is_available",
     "last_web_search": {
         "date": "2026-08-18",
-        "result": "No public clean official EPC/parts-catalog source was found for all requested Patrol generations. Search results were marketplace pages, service manuals, forums, Scribd-like documents, or physical catalog listings requiring purchase/access and visual verification."
+        "result": "No public clean official EPC/parts-catalog source was found for all requested Patrol generations. Search results were marketplace pages, service manuals, forums, Scribd-like documents, independent EPC index platforms, or physical catalog listings requiring purchase/access and visual verification.",
+        "candidate_notes": [
+          {
+            "source": "https://nissan-europe.epc-data.com/patrol/",
+            "note": "Search result lists Patrol 160, Y60, Y61, and Y62, but page access timed out and diagrams could not be visually verified."
+          },
+          {
+            "source": "https://7zap.com/en/catalog/cars/nissan/patrol-y62-parts-catalog/?region=global",
+            "note": "Y62 category index is visible, but 7zap states it is independent and not affiliated with the manufacturer; not accepted as final Nissan-source PDF without rights and visual QA."
+          },
+          {
+            "source": "https://www.nissan-techinfo.com/find.aspx",
+            "note": "Official Nissan publications source, but currently verified as service/publication portal rather than complete Patrol EPC source."
+          }
+        ]
     },
   "strict_watermark_policy": {
     "allowed": [

@@ -32,7 +32,11 @@
       "local_source_checked": "outputs/ذاكرة الكتالوجات المفروزة والمعتمدة/استخراج_نظيف_بدون_Partsouq_2026-08-09"
     }
   },
-  "status": "blocked_until_clean_epc_source_is_available",
+    "status": "blocked_until_clean_epc_source_is_available",
+    "last_web_search": {
+        "date": "2026-08-18",
+        "result": "No public clean official EPC/parts-catalog source was found for all requested Patrol generations. Search results were marketplace pages, service manuals, forums, Scribd-like documents, or physical catalog listings requiring purchase/access and visual verification."
+    },
   "strict_watermark_policy": {
     "allowed": [
       "Nissan-only source mark or watermark from an original Nissan source"
